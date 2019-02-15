@@ -1,7 +1,7 @@
-var a = 12;
-var b = 12;
-var c = 24;
 function triangle(a,b,c){
+  var a = 12;
+  var b = 12;
+  var c = 14;
   if( a+b<=c || a+c<=b || b+c<=a ){
     alert("the values you entered will not make a triangle.");
   }else if(a==b==c){
@@ -14,3 +14,4 @@ function triangle(a,b,c){
     alert("Please enter valid values. That is, positive numbers. Avoid letters and special characters");
   }
 }
+triangle();

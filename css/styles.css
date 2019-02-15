@@ -16,6 +16,21 @@ header {
 form {
   margin: 20px;
 }
+.form {
+  float: left;
+  width: 48%
+}
+.instructions {
+  float: left;
+  width: 48%;
+  padding 20px;
+}
+li {
+  font-size: 18px;
+}
+h1 {
+  text-transform: uppercase;
+}
 p {
   font-size: 18px;
 }
@@ -28,6 +43,7 @@ fieldset {
 legend {
   padding: 10px;
   font-size: 18px;
+  font-weight: bold;
 }
 input {
   display: block;
@@ -38,6 +54,9 @@ input {
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
+}
+#newp {
+  clear: both;
 }
 #footer {
   text-align: center;

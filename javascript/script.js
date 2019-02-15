@@ -1,16 +1,17 @@
 function triangle(){
-  var a = 12;
-  var b = 12;
-  var c = 14;
-  if( a+b<=c || a+c<=b || b+c<=a ){
-    alert("the values you entered will not make a triangle.");
-  }else if(a==b==c){
-    alert("the values you entered make an equilateral triangle.");
-  }else if( a==b && b!=c || a==c && a!=b || b==c && b!=a ){
-    alert("the values you entered make an isosceles triangle.");
-  }else if (a!=b!=c) {
-    alert("the values you entered make a scalene triangle.");
+  var a = parseInt(document.form1.first.value);
+  var b = parseInt(document.form1.second.value);
+  var c = parseInt(document.form1.third.value);
+  var form = document.getElementById('form1');
+  if( a+b>c && a+c>b && b+c>a ){
+    if(a==b && b==c && a==c){
+      alert("the values you entered will make an equilateral triangle.");
+    }else if (a!=b && b!=c && a!=c) {
+      alert("the values you entered will make a scalene triangle.");
+    }else{
+      alert("the values you entered will make an isosceles triangle.");
+    }
   }else{
-    alert("Please enter valid values. That is, positive numbers. Avoid letters and special characters");
+    alert("Don't");
   }
 }

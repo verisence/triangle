@@ -1,12 +1,16 @@
 var a = 12;
-var b = 24;
-var c = 12;
-
-
-if( a+b<=c || a+c<=b || b+c<=a ){
-  alert("the values you entered");
-}else if(a=b=c){
-  alert("the values you entered make an equilateral triangle");
-}else if( a=b!=c || a=c!=b || b=c!a ){
-  alert("the values you entered make an isosceles triangle");
+var b = 12;
+var c = 24;
+function triangle(a,b,c){
+  if( a+b<=c || a+c<=b || b+c<=a ){
+    alert("the values you entered will not make a triangle.");
+  }else if(a==b==c){
+    alert("the values you entered make an equilateral triangle.");
+  }else if( a==b && b!=c || a==c && a!=b || b==c && b!=a ){
+    alert("the values you entered make an isosceles triangle.");
+  }else if (a!=b!=c) {
+    alert("the values you entered make a scalene triangle.");
+  }else{
+    alert("Please enter valid values. That is, positive numbers. Avoid letters and special characters");
+  }
 }

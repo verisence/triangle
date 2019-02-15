@@ -14,4 +14,5 @@ function triangle(){
   }else{
     alert("Don't");
   }
+  form.reset();
 }

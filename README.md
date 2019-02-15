@@ -6,7 +6,7 @@ This web page will allow the user to enter three numbers that make up the sides 
 ## Setup/Installation Requirements
 * Install a browser preferably google chrome.
 * Make sure Javascript rendering is not disabled in the browser settings.
-* Access the site using the URL
+* Access the site using the URL https://verisence.github.io/triangle/
 * Follow the instructions on the sites.
 ## User stories
 * As a user I should be prompted for input.

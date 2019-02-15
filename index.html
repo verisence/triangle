@@ -9,30 +9,32 @@
     <header>
       <img src="images/logo.png" alt="logo">
     </header>
-    <div class="intro">
-      <h1>Triangles</h1>
-      <p>Welcome. We will help you determine whether the inputs you give will make an equilateral triangle, an isosceles triangle, a scalene triangle or if a triangle at all.</p>
+    <div class="container">
+      <div class="intro">
+        <h1>Triangles</h1>
+        <p>Welcome. We will help you determine whether the inputs you give will make an equilateral triangle, an isosceles triangle, a scalene triangle or if a triangle at all.</p>
+      </div>
+      <div class="instructions">
+        <h1>instructions</h1>
+        <ol>
+          <li>Enter the sides that would make up a triangle. Ensure the values can make a valid triangle. The sum of two sides should not be equal to or less than the third side.</li>
+          <li>Click the submit button.</li>
+          <li>Repeat for more.</li>
+        </ol>
+      </div>
+      <div class="form">
+        <form name="form1" id = "form1">
+          <fieldset>
+            <legend>INPUT</legend>
+            <input type="number" name="first" value="" placeholder="Enter the first number">
+            <input type="number" name="second" value="" placeholder="Enter the second number">
+            <input type="number" name="third" value="" placeholder="Enter the third number">
+            <input value="Submit" type="button" onclick="triangle()">
+          </fieldset>
+        </form>
+      </div>
+      <p id="newp">Depending on the inputs you give, the type of the triangle you entered will appear here.</p>
     </div>
-    <div class="form">
-      <form name="form1" id = "form1">
-        <fieldset>
-          <legend>INPUT</legend>
-          <input type="number" name="first" value="" placeholder="Enter the first number">
-          <input type="number" name="second" value="" placeholder="Enter the second number">
-          <input type="number" name="third" value="" placeholder="Enter the third number">
-          <input value="Submit" type="button" onclick="triangle()">
-        </fieldset>
-      </form>
-    </div>
-    <div class="instructions">
-      <h1>instructions</h1>
-      <ol>
-        <li>Enter the sides that would make up a triangle. Ensure the values can make a valid triangle. The sum of two sides should not be equal to or less than the third side.</li>
-        <li>Click the submit button.</li>
-        <li>Repeat for more.</li>
-      </ol>
-    </div>
-    <p id="newp">Depending on the inputs you give, the type of the triangle you entered will appear here.</p>
     <footer id="footer">&copy verisence 2019</footer>
     <script src="javascript/script.js"></script>
   </body>

@@ -8,6 +8,15 @@ This web page will allow the user to enter three numbers that make up the sides 
 * Make sure Javascript rendering is not disabled in the browser settings.
 * Access the site using the URL
 * Follow the instructions on the sites.
+##User stories
+* As a user I should be prompted for input.
+* As a user I should be able to submit the input.
+* As a user I should get information on the type of triangle formed by my input.
+##Behavior Driven Development
+| Input                  | Behavior                                  | Output                                      |
+| ---------------------- | :---------------------------------------: | :-----------------------------------------: |
+| Code from index.html   | Loads home page                           | Prompts the user for input                  |
+| Input from the user    | Calls the function in the Javascript file | Clears the input and show the triangle type |
 ## Known Bugs
 No known bugs at the moment.
 ## Technologies Used

@@ -4,6 +4,9 @@ body {
   font-family: Arial;
   color: #eee;
   background: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #0d0d0d;
 }
 header {
   background: #0d0d0d;
@@ -19,7 +22,7 @@ p {
 fieldset {
   padding: 20px;
   margin: 20px 0;
-  border: 3px solid #222;
+  border: 3px solid #f5793d;
   border-radius: 8px
 }
 legend {

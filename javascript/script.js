@@ -1,4 +1,4 @@
-function triangle(a,b,c){
+function triangle(){
   var a = 12;
   var b = 12;
   var c = 14;
@@ -14,4 +14,3 @@ function triangle(a,b,c){
     alert("Please enter valid values. That is, positive numbers. Avoid letters and special characters");
   }
 }
-triangle();

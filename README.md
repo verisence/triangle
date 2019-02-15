@@ -14,7 +14,7 @@ This web page will allow the user to enter three numbers that make up the sides 
 * As a user I should get information on the type of triangle formed by my input.
 ##Behavior Driven Development
 | Input                  | Behavior                                  | Output                                      |
-| ---------------------- | :---------------------------------------: | :-----------------------------------------: |
+|------------------------|-------------------------------------------|---------------------------------------------|
 | Code from index.html   | Loads home page                           | Prompts the user for input                  |
 | Input from the user    | Calls the function in the Javascript file | Clears the input and show the triangle type |
 ## Known Bugs

@@ -1,7 +1,7 @@
 body {
   background: #141414;
   margin: 0;
-  font-family: Arial;
+  font-family: 'PT Sans Narrow', sans-serif;
   color: #eee;
   /* background: url("../images/bg.jpg"); */
   background-size: cover;
@@ -33,13 +33,13 @@ form {
   margin-left: 5px;
 }
 li {
-  font-size: 18px;
+  font-size: 24px;
 }
 h1 {
   text-transform: uppercase;
 }
 p {
-  font-size: 18px;
+  font-size: 25px;
 }
 fieldset {
   padding: 20px;
@@ -49,7 +49,7 @@ fieldset {
 }
 legend {
   padding: 10px;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
 }
 input {
@@ -68,4 +68,5 @@ input {
 #footer {
   text-align: center;
   color: #f5793d;
+  padding-bottom: 20px;
 }
